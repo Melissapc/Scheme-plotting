@@ -8,3 +8,28 @@
   12. Assign each div the same background color as its id 
   CONTINUE MISSION IN js/plot.js
 */
+
+form{
+    text-align: center;
+}
+.color-choice{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+#Aqua{
+    background-color: Aqua;
+}
+
+#Black{
+    background-color: Black;
+}
+#HotPink{
+    background-color:HotPink ;
+}
+#Turquoise{
+    background-color:Turquoise ;
+}
+#MediumSlateBlue  {
+    background-color:MediumSlateBlue   ;
+}

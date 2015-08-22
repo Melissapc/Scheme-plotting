@@ -10,14 +10,14 @@
       2. Link the javascript file in the js folder
     -->
     
-     <link rel= "stylesheet" href "scheme.css">
-        <script  src = "js/plot.js">
+     <link rel= "stylesheet" href= "scheme.css">
+        <script  src = "plot.js">
               
              </script>
       
   </head>
   <body>
-    <form onsubmit="plotScheme()"  >
+    <form onsubmit= "return plotScheme()"  >
                     
           <div id="Aqua" class = "color-choice" >
             <input type="radio" name="color" value="Aqua">
@@ -46,20 +46,20 @@
               </p>
           </div>
    
-   <div id="PaleTorquoise" class = "color-choice" >
-            <input type="radio" name="color" value="PaleTorquoise">
+   <div id="MediumSlateBlue" class = "color-choice" >
+            <input type="radio" name="color" value="MediumSlateBlue  ">
               <p>
-              PaleTorquoise
+              MediumSlateBlue
               </p>
           </div>
                 
-  
+         <input type="submit">
     </form>
     
-    <input type="submit"
+    
       
   
-    </input>
+ 
           <!--
       3. Create a form element with the attribute: onSubmit="plotScheme()"
         - this is similar to onClick, plotScheme is the name of our JS funciton

@@ -18,3 +18,4 @@
     - use the jQuery function .css('background-color',VARIABLENAME)
 
 */
+function plotScheme() {
